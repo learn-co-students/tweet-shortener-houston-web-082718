@@ -1,4 +1,4 @@
-# Manipulating Strings and Hashes: Tweet Shortener
+dictionary# Manipulating Strings and Hashes: Tweet Shortener
 
 ## Objectives
 
