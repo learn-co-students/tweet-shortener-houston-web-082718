@@ -46,6 +46,7 @@ describe 'tweet shortener' do
       expect(selective_tweet_shortener(tweet_five).length).to be < tweet_five_length
     end
 
+
     it "does not shorten tweets that are less than 130 characters" do
       expect(selective_tweet_shortener(tweet_two).length).to be == tweet_two.length
       expect(selective_tweet_shortener(tweet_four).length).to be == tweet_four.length
@@ -60,6 +61,7 @@ describe 'tweet shortener' do
     end
 
     it 'does not shorten tweets shorter than 140 characters.' do
+      
       expect(shortened_tweet_truncator(tweet_one_short).length).to be == tweet_one_short.length 
     end
   end
